@@ -10,7 +10,7 @@ https://www.mozilla.org/en-US/styleguide/websites/sandstone/
 
 ## "...in Angular!"
 
-left side: code file tree
+#### left side: code file tree
 
 ```
  |- button.component.html
@@ -19,10 +19,7 @@ left side: code file tree
  |- button.component.ts
 ```
 
-right hand side: super duper picture of button
-
-
-## Reach out!
+#### right hand side: (~super duper picture of button~)
 
 publish to npm repository
 
@@ -30,12 +27,21 @@ publish to npm repository
 import { ButtonModule } from '@my/brand';
 ```
 
+
+## But wait...
+
+```ts
+import { ButtonModule } from '@my/brand';
+```
+
+what does it actually mean?
+
 Icon wall of tools: webpack, rollup, gulp, angular CLI, ember CLI, system.js
 
 then fade in as last icon: bazel - uh, ah! yet another one!
 
 
-## And then came Angular Package Format
+#### So then came Angular Package Format
 
 screenshot of document beginning: https://docs.google.com/document/d/1CZC2rcpxffTDfRDs6p1cfbmKNLA6x5O-NtkJglDaBVs/preview
 
@@ -43,6 +49,8 @@ Purpose of Angular Package Format: is compatible w/ most build tool chains.
 
 
 ## Mamma mia! Here we go again!
+
+screenshot of 227 lines of gulpfile.js
 
 rollup, scss, less, browserslistrc, tsc, ngc, AoT, FESM'15, module, typings, main, and on and on and on...
 
